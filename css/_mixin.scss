@@ -1,0 +1,13 @@
+$strColor : #2a1b3d;
+
+@mixin after($width,$height,$back){
+        display: block;
+        content: '';
+        width: $width;
+        height: $height;
+        position: absolute;
+        background: $back;
+}
+@mixin background($url){
+    background: url("../img/"+$url)no-repeat center center;
+}
