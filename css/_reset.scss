@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,8 +15,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-    font: inherit;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: '돋움',Helvetica,sans-serif;
     vertical-align: baseline;
     color: #1c1b20;
     font-size: 16px;
@@ -27,7 +23,6 @@ time, mark, audio, video {
 a{
     display: inline-block;
     text-decoration: none;
-    color: #333;
 }
 span{
     display: inline-block;
@@ -39,6 +34,7 @@ button{
     border-radius:0; 
     padding:0; 
     overflow:visible; 
+    font-family: '돋움',Helvetica,sans-serif;
     cursor:pointer;
 }
 /* HTML5 display-role reset for older browsers */
