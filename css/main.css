@@ -167,10 +167,22 @@ table {
     display: flex;
     justify-content: center; }
     .footer__list li {
+      position: relative;
       font-size: 12px;
       margin-right: 18px; }
+      .footer__list li:after {
+        display: block;
+        content: '';
+        width: 1px;
+        height: 13px;
+        position: absolute;
+        background: #e4e4e5;
+        right: -10px;
+        top: 0; }
       .footer__list li:last-of-type {
         margin-right: 0; }
+        .footer__list li:last-of-type:after {
+          display: none; }
   .footer__copyright {
     position: relative;
     text-align: center;

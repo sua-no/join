@@ -104,10 +104,19 @@
         display: flex;
         justify-content: center;
         li{
+            position: relative;
             font-size: 12px;
             margin-right: 18px;
+            &:after{
+                @include after(1px,13px,#e4e4e5);
+                right: -10px;
+                top: 0;
+            }
             &:last-of-type{
                 margin-right: 0;
+                &:after{
+                    display: none;
+                }
             }
         }
     }
