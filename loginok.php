@@ -17,6 +17,7 @@
         <section class="section__loginok">
             <h2 class="section__loginok__title">로그인 성공</h2>
             <p class="section__loginok__userinfo"><span class="user-name">노수아</span>님 로그인 성공!</p>
+            <p class="section__loginok__date">가입일 : <span class="user-date">2020-07-05</span></p>
             <img src="img/login_ok.jpg" class="section__loginok__celebration">
             <a href="index.php" class="section__loginok__logout__button">로그아웃</a>
         </section>

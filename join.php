@@ -6,6 +6,7 @@
     <title>네이버 : 회원가입</title>
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/regexp.js"></script>
 </head>
 <body>
     <div class="wrap join">
@@ -20,8 +21,8 @@
                     <label for="id">아이디</label>
                 </h2>
                 <div class="section__joinform__textbox">
-                    <input type="text" id="id" name="id">
-                    <p class="section__joinform__textbox__checkmessage">숫자와 영문자 조합으로 4~8자리를 사용해야 합니다.</p>
+                    <input type="text" id="id" name="id" autofocus>
+                    <p class="section__joinform__textbox__checkmessage">숫자와 영소자 조합으로 4~8자리를 사용해야 합니다.</p>
                 </div>
                 <h2 class="section__joinform__label">
                     <label for="pw">비밀번호</label>
@@ -65,9 +66,9 @@
                     <label for="tel">전화번호<span>(선택)</span></label>
                 </h2>
                 <div class="section__joinform__textbox tel">
-                    <input type="tel" id="tel" name="tel1" value="010">-
-                    <input type="tel" id="tel" name="tel2">-
-                    <input type="tel" id="tel" name="tel3">
+                    <input type="tel" id="tel1" name="tel1" value="010">-
+                    <input type="tel" id="tel2" name="tel2">-
+                    <input type="tel" id="tel3" name="tel3">
                 </div>
                 <button type="submit" name="login" class="section__joinform__button">회원가입</button>
             </form>

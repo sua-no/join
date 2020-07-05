@@ -157,7 +157,7 @@
     width: 650px;
     height: 350px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 35px 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -172,6 +172,14 @@
         font-size: 14px;
         .user-name{
             font-weight: bold;
+        }
+    }
+    &__date{
+        font-size: 12px;
+        font-weight: 100;
+        .user-date{
+            font-size: 12px;
+            font-weight: 100;
         }
     }
     &__logout__button{
