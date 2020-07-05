@@ -17,38 +17,32 @@
             <h1 class="header__title"><a href="#" class="header__title__logo">NAVER</a></h1>
             <select name="languages" id="languages" class="header__select__languages">
                 <option value="kor">한국어</option>
-                <option value="eng">English</option>
+                <option value="eng" selected>English</option>
             </select>
         </header>
         <!-- content -->
         <section class="section">
             <form action="loginok.php" method="post" class="section__loginform">
                 <div class="section__loginform__textbox">
-                    <input type="text" name="id" placeholder="아이디">
+                    <input type="text" name="id" placeholder="Username">
                 </div>
                 <div class="section__loginform__textbox">
-                    <input type="password" name="pw" placeholder="비밀번호">
+                    <input type="password" name="pw" placeholder="Password">
                 </div>
-                <button type="submit" name="login" class="section__loginform__button">로그인</button>
+                <button type="submit" name="login" class="section__loginform__button">Sign in</button>
             </form>
             <div class="section__join__button">
-                <a href="join.php">회원가입</a>
+                <a href="join.php">Sign Up</a>
             </div>
             <div class="section__find">
                 <ul>
-                    <li>아이디 찾기</li>
-                    <li>비밀번호 찾기</li>
+                    <li>Forgot your Username</li>
+                    <li>or Password?</li>
                 </ul>
             </div>
         </section>
         <!-- footer -->
         <footer class="footer">
-            <ul class="footer__list">
-                <li>이용약관</li>
-                <li>개인정보처리방침</li>
-                <li>책임의 한계와 법적고지</li>
-                <li>회원정보 고객센터</li>
-            </ul>
             <p class="footer__copyright"><span>NAVER</span> Copyright &copy; NAVER Corp. All Rights Reserved.</p>
         </footer>
     </div>
