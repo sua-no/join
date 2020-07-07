@@ -107,6 +107,7 @@
                 width: 25%;
             }
             &__checkmessage{
+                display: none;
                 position: absolute;
                 left: 0;
                 bottom: -18px;
@@ -114,7 +115,7 @@
                 line-height: 14px;
                 color: #f00;
                 &.empty-check{
-                    display: none;
+                    display: block;
                 }
             }
         }

@@ -228,6 +228,7 @@ table {
     .section__joinform__textbox.tel input {
       width: 25%; }
     .section__joinform__textbox__checkmessage {
+      display: none;
       position: absolute;
       left: 0;
       bottom: -18px;
@@ -235,7 +236,7 @@ table {
       line-height: 14px;
       color: #f00; }
       .section__joinform__textbox__checkmessage.empty-check {
-        display: none; }
+        display: block; }
   .section__joinform__button {
     width: 460px;
     height: 61px;

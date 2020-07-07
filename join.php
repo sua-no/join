@@ -21,36 +21,36 @@
                     <label for="id">아이디</label>
                 </h2>
                 <div class="section__joinform__textbox">
-                    <input type="text" id="id" name="id" autofocus>
-                    <p class="section__joinform__textbox__checkmessage">숫자와 영소자 조합으로 4~8자리를 사용해야 합니다.</p>
+                    <input type="text" id="id" name="id" required>
+                    <p class="section__joinform__textbox__checkmessage">숫자와 영소문자 조합으로 4~8자리를 사용해야 합니다.</p>
                 </div>
                 <h2 class="section__joinform__label">
                     <label for="pw">비밀번호</label>
                 </h2>
                 <div class="section__joinform__textbox step1">
-                    <input type="password" id="pw" name="pw">
+                    <input type="password" id="pw" name="pw" required>
                     <p class="section__joinform__textbox__checkmessage">숫자,영문자와 특수문자 조합으로 4~8자리를 사용해야 합니다.</p>
                 </div>
                 <h2 class="section__joinform__label">
                     <label for="pw-check">비밀번호 확인</label>
                 </h2>
                 <div class="section__joinform__textbox check-step1">
-                    <input type="password" id="pw-check" name="pw-check" placeholder="">
-                    <p class="section__joinform__textbox__checkmessage empty-check">비밀번호가 일치하지 않습니다.</p>
+                    <input type="password" id="pw-check" name="pw-check" required>
+                    <p class="section__joinform__textbox__checkmessage">비밀번호가 일치하지 않습니다.</p>
                 </div>
                 <h2 class="section__joinform__label">
                     <label for="name">이름</label>
                 </h2>
                 <div class="section__joinform__textbox">
-                    <input type="text" id="name" name="name" placeholder="">
-                    <p class="section__joinform__textbox__checkmessage empty-check">필수정보입니다.</p>
+                    <input type="text" id="name" name="name" required>
+                    <p class="section__joinform__textbox__checkmessage">필수정보입니다.</p>
                 </div>
                 <h2 class="section__joinform__label">
                     <label for="email">이메일</label>
                 </h2>
                 <div class="section__joinform__textbox">
-                    <input type="email" id="email" name="email" placeholder="">
-                    <p class="section__joinform__textbox__checkmessage empty-check">필수정보입니다.</p>
+                    <input type="email" id="email" name="email" required>
+                    <p class="section__joinform__textbox__checkmessage">필수정보입니다.</p>
                 </div>
                 <h2 class="section__joinform__label">
                     <label for="gender">성별<span>(선택)</span></label>
