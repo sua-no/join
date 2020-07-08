@@ -225,8 +225,6 @@ table {
       background-image: url("../img/pw_error.png");
       background-repeat: no-repeat;
       background-position: center center; }
-    .section__joinform__textbox.tel input {
-      width: 25%; }
     .section__joinform__textbox__checkmessage {
       display: none;
       position: absolute;

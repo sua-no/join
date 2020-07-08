@@ -103,9 +103,6 @@
             &.check-step3:after{
                 @include pw-after("pw_error.png");
             }
-            &.tel input{
-                width: 25%;
-            }
             &__checkmessage{
                 display: none;
                 position: absolute;

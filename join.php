@@ -16,7 +16,7 @@
         </header>
         <!-- section -->
         <section class="section">
-            <form action="joinok.php" method="post" class="section__joinform">
+            <form action="joincheck.php" method="post" class="section__joinform">
                 <h2 class="section__joinform__label">
                     <label for="id">아이디</label>
                 </h2>
@@ -29,7 +29,7 @@
                 </h2>
                 <div class="section__joinform__textbox step1">
                     <input type="password" id="pw" name="pw" required>
-                    <p class="section__joinform__textbox__checkmessage">숫자,영문자와 특수문자 조합으로 4~8자리를 사용해야 합니다.</p>
+                    <p class="section__joinform__textbox__checkmessage">숫자, 영문자, 특수문자 조합으로 4~8자리를 사용해야 합니다.</p>
                 </div>
                 <h2 class="section__joinform__label">
                     <label for="pw-check">비밀번호 확인</label>
@@ -66,9 +66,8 @@
                     <label for="tel">전화번호<span>(선택)</span></label>
                 </h2>
                 <div class="section__joinform__textbox tel">
-                    <input type="tel" id="tel1" name="tel1" value="010">-
-                    <input type="tel" id="tel2" name="tel2">-
-                    <input type="tel" id="tel3" name="tel3">
+                    <input type="tel" id="tel" name="tel" placeholder="'-'없이 입력하세요">
+                    <p class="section__joinform__textbox__checkmessage">형식에 맞지 않는 번호입니다.</p>
                 </div>
                 <button type="submit" name="login" class="section__joinform__button">회원가입</button>
             </form>

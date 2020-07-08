@@ -22,7 +22,7 @@
         </header>
         <!-- content -->
         <section class="section">
-            <form action="loginok.php" method="post" class="section__loginform">
+            <form action="logincheck.php" method="post" class="section__loginform">
                 <div class="section__loginform__textbox">
                     <input type="text" name="id" placeholder="아이디">
                 </div>
