@@ -11,8 +11,10 @@
     $gender = $_POST["gender"];
     $tel = $_POST["tel"];
     $date = date("Y-m-d");
-
-
+    if($tel == ''){
+        $tel = 0;
+    }
+    
     $query = "INSERT INTO naveruser(id, pw, name, email, gender, tel, date) VALUES ('$id', '$pw','$name','$email','$gender','$tel', '$date')";
 
     mysqli_query($dbConnect, $query);
